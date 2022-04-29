@@ -7,18 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33166D5128154E39005BA7CC /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33166D5028154E39005BA7CC /* BottomSheet.swift */; };
+		33166D5328193F73005BA7CC /* FavoritesAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33166D5228193F73005BA7CC /* FavoritesAlbum.swift */; };
+		333B1D692806BCA800DF9B21 /* FavoritesSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333B1D682806BCA800DF9B21 /* FavoritesSong.swift */; };
+		33546E84280711C3000BA64B /* FavoriteSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33546E83280711C3000BA64B /* FavoriteSongs.swift */; };
 		33AE03EC27E3980400A8CA7B /* mp3playerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AE03EB27E3980400A8CA7B /* mp3playerApp.swift */; };
-		33AE03EE27E3980400A8CA7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AE03ED27E3980400A8CA7B /* ContentView.swift */; };
+		33AE03EE27E3980400A8CA7B /* SongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AE03ED27E3980400A8CA7B /* SongsView.swift */; };
 		33AE03F027E3980A00A8CA7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AE03EF27E3980A00A8CA7B /* Assets.xcassets */; };
 		33AE03F327E3980A00A8CA7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AE03F227E3980A00A8CA7B /* Preview Assets.xcassets */; };
+		33AE03FB27E39DAC00A8CA7B /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AE03FA27E39DAC00A8CA7B /* SongModel.swift */; };
+		33AE03FF27E39ED300A8CA7B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AE03FE27E39ED300A8CA7B /* CardView.swift */; };
+		33AE040127E39EE100A8CA7B /* SingleSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AE040027E39EE100A8CA7B /* SingleSong.swift */; };
+		33AE040427E39F0D00A8CA7B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AE040327E39F0D00A8CA7B /* Player.swift */; };
+		33AE040627E39FA900A8CA7B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AE040527E39FA900A8CA7B /* Theme.swift */; };
+		33B8D8D327F44C3200AC374C /* DirModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8D8D227F44C3200AC374C /* DirModel.swift */; };
+		33B8D8D527F45D1B00AC374C /* FoldersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8D8D427F45D1B00AC374C /* FoldersView.swift */; };
+		33B8D8D727F5948D00AC374C /* FolderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8D8D627F5948C00AC374C /* FolderListView.swift */; };
+		33B8D8E127F7454E00AC374C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B8D8E027F7454D00AC374C /* WidgetKit.framework */; };
+		33B8D8E327F7454E00AC374C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B8D8E227F7454E00AC374C /* SwiftUI.framework */; };
+		33B8D8E627F7454E00AC374C /* Playersy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8D8E527F7454E00AC374C /* Playersy.swift */; };
+		33B8D8E927F7455600AC374C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B8D8E827F7455600AC374C /* Assets.xcassets */; };
+		33B8D8EB27F7455600AC374C /* Playersy.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 33B8D8E727F7454E00AC374C /* Playersy.intentdefinition */; };
+		33B8D8EC27F7455700AC374C /* Playersy.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 33B8D8E727F7454E00AC374C /* Playersy.intentdefinition */; };
+		33B8D8EF27F7455700AC374C /* PlayersyExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 33B8D8DE27F7454C00AC374C /* PlayersyExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		33BD1AAC27E483DB00572CDB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BD1AAB27E483DB00572CDB /* Launch Screen.storyboard */; };
+		33BD1AAE27E5F2A600572CDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BD1AAD27E5F2A600572CDB /* ViewController.swift */; };
+		33BD1AB027E5FD0700572CDB /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BD1AAF27E5FD0700572CDB /* Files.swift */; };
+		33BD1AB527ECCCDC00572CDB /* PlaybackCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BD1AB427ECCCDB00572CDB /* PlaybackCard.swift */; };
+		33BD1AB727F1A06600572CDB /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BD1AB627F1A06600572CDB /* Settings.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		33B8D8ED27F7455700AC374C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AE03E027E3980400A8CA7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33B8D8DD27F7454C00AC374C;
+			remoteInfo = PlayersyExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		33B8D8F327F7455700AC374C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				33B8D8EF27F7455700AC374C /* PlayersyExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		33166D5028154E39005BA7CC /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		33166D5228193F73005BA7CC /* FavoritesAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesAlbum.swift; sourceTree = "<group>"; };
+		333B1D682806BCA800DF9B21 /* FavoritesSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesSong.swift; sourceTree = "<group>"; };
+		33546E83280711C3000BA64B /* FavoriteSongs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteSongs.swift; sourceTree = "<group>"; };
+		33609E0527FAE10F000F8C94 /* mp3player.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mp3player.entitlements; sourceTree = "<group>"; };
+		33609E0627FAE6EE000F8C94 /* PlayersyExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlayersyExtension.entitlements; sourceTree = "<group>"; };
 		33AE03E827E3980400A8CA7B /* mp3player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mp3player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AE03EB27E3980400A8CA7B /* mp3playerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mp3playerApp.swift; sourceTree = "<group>"; };
-		33AE03ED27E3980400A8CA7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33AE03ED27E3980400A8CA7B /* SongsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsView.swift; sourceTree = "<group>"; };
 		33AE03EF27E3980A00A8CA7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33AE03F227E3980A00A8CA7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33AE03FA27E39DAC00A8CA7B /* SongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
+		33AE03FE27E39ED300A8CA7B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		33AE040027E39EE100A8CA7B /* SingleSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSong.swift; sourceTree = "<group>"; };
+		33AE040327E39F0D00A8CA7B /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		33AE040527E39FA900A8CA7B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		33B8D8D227F44C3200AC374C /* DirModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirModel.swift; sourceTree = "<group>"; };
+		33B8D8D427F45D1B00AC374C /* FoldersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldersView.swift; sourceTree = "<group>"; };
+		33B8D8D627F5948C00AC374C /* FolderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderListView.swift; sourceTree = "<group>"; };
+		33B8D8DE27F7454C00AC374C /* PlayersyExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PlayersyExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B8D8E027F7454D00AC374C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		33B8D8E227F7454E00AC374C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		33B8D8E527F7454E00AC374C /* Playersy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playersy.swift; sourceTree = "<group>"; };
+		33B8D8E727F7454E00AC374C /* Playersy.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Playersy.intentdefinition; sourceTree = "<group>"; };
+		33B8D8E827F7455600AC374C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33B8D8EA27F7455600AC374C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BD1AA927E47D8D00572CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		33BD1AAA27E47E7B00572CDB /* mp3playerDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mp3playerDebug.entitlements; sourceTree = "<group>"; };
+		33BD1AAB27E483DB00572CDB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		33BD1AAD27E5F2A600572CDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33BD1AAF27E5FD0700572CDB /* Files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Files.swift; sourceTree = "<group>"; };
+		33BD1AB427ECCCDB00572CDB /* PlaybackCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackCard.swift; sourceTree = "<group>"; };
+		33BD1AB627F1A06600572CDB /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,13 +105,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		33B8D8DB27F7454C00AC374C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B8D8E327F7454E00AC374C /* SwiftUI.framework in Frameworks */,
+				33B8D8E127F7454E00AC374C /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33609E0727FC2B7D000F8C94 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
 		33AE03DF27E3980400A8CA7B = {
 			isa = PBXGroup;
 			children = (
+				33609E0627FAE6EE000F8C94 /* PlayersyExtension.entitlements */,
 				33AE03EA27E3980400A8CA7B /* mp3player */,
+				33B8D8E427F7454E00AC374C /* Playersy */,
+				33B8D8DF27F7454D00AC374C /* Frameworks */,
 				33AE03E927E3980400A8CA7B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				33AE03E827E3980400A8CA7B /* mp3player.app */,
+				33B8D8DE27F7454C00AC374C /* PlayersyExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +147,27 @@
 		33AE03EA27E3980400A8CA7B /* mp3player */ = {
 			isa = PBXGroup;
 			children = (
+				33609E0727FC2B7D000F8C94 /* UserDefaults */,
+				33609E0527FAE10F000F8C94 /* mp3player.entitlements */,
+				333B1D682806BCA800DF9B21 /* FavoritesSong.swift */,
+				33166D5228193F73005BA7CC /* FavoritesAlbum.swift */,
+				33BD1AAF27E5FD0700572CDB /* Files.swift */,
+				33166D5028154E39005BA7CC /* BottomSheet.swift */,
+				33BD1AB427ECCCDB00572CDB /* PlaybackCard.swift */,
+				33BD1AAD27E5F2A600572CDB /* ViewController.swift */,
+				33BD1AAA27E47E7B00572CDB /* mp3playerDebug.entitlements */,
+				33BD1AA927E47D8D00572CDB /* Info.plist */,
+				33AE040227E39EFD00A8CA7B /* PlayerController */,
+				33AE03F927E39D9600A8CA7B /* Models */,
 				33AE03EB27E3980400A8CA7B /* mp3playerApp.swift */,
-				33AE03ED27E3980400A8CA7B /* ContentView.swift */,
+				33B8D8D627F5948C00AC374C /* FolderListView.swift */,
+				33BD1AB627F1A06600572CDB /* Settings.swift */,
+				33B8D8D427F45D1B00AC374C /* FoldersView.swift */,
+				33AE03ED27E3980400A8CA7B /* SongsView.swift */,
+				33AE03FE27E39ED300A8CA7B /* CardView.swift */,
+				33AE040027E39EE100A8CA7B /* SingleSong.swift */,
+				33546E83280711C3000BA64B /* FavoriteSongs.swift */,
+				33BD1AAB27E483DB00572CDB /* Launch Screen.storyboard */,
 				33AE03EF27E3980A00A8CA7B /* Assets.xcassets */,
 				33AE03F127E3980A00A8CA7B /* Preview Content */,
 			);
@@ -67,6 +182,44 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		33AE03F927E39D9600A8CA7B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33AE03FA27E39DAC00A8CA7B /* SongModel.swift */,
+				33AE040527E39FA900A8CA7B /* Theme.swift */,
+				33B8D8D227F44C3200AC374C /* DirModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		33AE040227E39EFD00A8CA7B /* PlayerController */ = {
+			isa = PBXGroup;
+			children = (
+				33AE040327E39F0D00A8CA7B /* Player.swift */,
+			);
+			path = PlayerController;
+			sourceTree = "<group>";
+		};
+		33B8D8DF27F7454D00AC374C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33B8D8E027F7454D00AC374C /* WidgetKit.framework */,
+				33B8D8E227F7454E00AC374C /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33B8D8E427F7454E00AC374C /* Playersy */ = {
+			isa = PBXGroup;
+			children = (
+				33B8D8E527F7454E00AC374C /* Playersy.swift */,
+				33B8D8E727F7454E00AC374C /* Playersy.intentdefinition */,
+				33B8D8E827F7455600AC374C /* Assets.xcassets */,
+				33B8D8EA27F7455600AC374C /* Info.plist */,
+			);
+			path = Playersy;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +230,34 @@
 				33AE03E427E3980400A8CA7B /* Sources */,
 				33AE03E527E3980400A8CA7B /* Frameworks */,
 				33AE03E627E3980400A8CA7B /* Resources */,
+				33B8D8F327F7455700AC374C /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				33B8D8EE27F7455700AC374C /* PBXTargetDependency */,
 			);
 			name = mp3player;
 			productName = mp3player;
 			productReference = 33AE03E827E3980400A8CA7B /* mp3player.app */;
 			productType = "com.apple.product-type.application";
+		};
+		33B8D8DD27F7454C00AC374C /* PlayersyExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B8D8F027F7455700AC374C /* Build configuration list for PBXNativeTarget "PlayersyExtension" */;
+			buildPhases = (
+				33B8D8DA27F7454C00AC374C /* Sources */,
+				33B8D8DB27F7454C00AC374C /* Frameworks */,
+				33B8D8DC27F7454C00AC374C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayersyExtension;
+			productName = PlayersyExtension;
+			productReference = 33B8D8DE27F7454C00AC374C /* PlayersyExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +270,9 @@
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					33AE03E727E3980400A8CA7B = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					33B8D8DD27F7454C00AC374C = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
@@ -116,6 +291,7 @@
 			projectRoot = "";
 			targets = (
 				33AE03E727E3980400A8CA7B /* mp3player */,
+				33B8D8DD27F7454C00AC374C /* PlayersyExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +301,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33BD1AAC27E483DB00572CDB /* Launch Screen.storyboard in Resources */,
 				33AE03F327E3980A00A8CA7B /* Preview Assets.xcassets in Resources */,
 				33AE03F027E3980A00A8CA7B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B8D8DC27F7454C00AC374C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B8D8E927F7455600AC374C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +322,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33AE03EE27E3980400A8CA7B /* ContentView.swift in Sources */,
+				33546E84280711C3000BA64B /* FavoriteSongs.swift in Sources */,
+				33AE040127E39EE100A8CA7B /* SingleSong.swift in Sources */,
+				33AE040627E39FA900A8CA7B /* Theme.swift in Sources */,
+				33BD1AB027E5FD0700572CDB /* Files.swift in Sources */,
+				33AE03FB27E39DAC00A8CA7B /* SongModel.swift in Sources */,
+				33AE03EE27E3980400A8CA7B /* SongsView.swift in Sources */,
+				33B8D8D727F5948D00AC374C /* FolderListView.swift in Sources */,
+				33BD1AB727F1A06600572CDB /* Settings.swift in Sources */,
+				33AE040427E39F0D00A8CA7B /* Player.swift in Sources */,
 				33AE03EC27E3980400A8CA7B /* mp3playerApp.swift in Sources */,
+				33166D5128154E39005BA7CC /* BottomSheet.swift in Sources */,
+				33B8D8D527F45D1B00AC374C /* FoldersView.swift in Sources */,
+				33BD1AAE27E5F2A600572CDB /* ViewController.swift in Sources */,
+				33B8D8EC27F7455700AC374C /* Playersy.intentdefinition in Sources */,
+				33B8D8D327F44C3200AC374C /* DirModel.swift in Sources */,
+				33BD1AB527ECCCDC00572CDB /* PlaybackCard.swift in Sources */,
+				33AE03FF27E39ED300A8CA7B /* CardView.swift in Sources */,
+				33166D5328193F73005BA7CC /* FavoritesAlbum.swift in Sources */,
+				333B1D692806BCA800DF9B21 /* FavoritesSong.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B8D8DA27F7454C00AC374C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B8D8E627F7454E00AC374C /* Playersy.swift in Sources */,
+				33B8D8EB27F7455600AC374C /* Playersy.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33B8D8EE27F7455700AC374C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33B8D8DD27F7454C00AC374C /* PlayersyExtension */;
+			targetProxy = 33B8D8ED27F7455700AC374C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		33AE03F427E3980A00A8CA7B /* Debug */ = {
@@ -195,7 +414,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -262,19 +481,25 @@
 		33AE03F727E3980A00A8CA7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mp3player/mp3playerDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mp3player/Preview Content\"";
 				DEVELOPMENT_TEAM = 4238PZSFKB;
-				ENABLE_PREVIEWS = YES;
+				ENABLE_PREVIEWS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mp3player/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,19 +516,25 @@
 		33AE03F827E3980A00A8CA7B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mp3player/mp3player.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mp3player/Preview Content\"";
 				DEVELOPMENT_TEAM = 4238PZSFKB;
-				ENABLE_PREVIEWS = YES;
+				ENABLE_PREVIEWS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mp3player/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +542,64 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dani.mp3player;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33B8D8F127F7455700AC374C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = PlayersyExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4238PZSFKB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Playersy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Playersy;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dani.mp3player.Playersy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33B8D8F227F7455700AC374C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = PlayersyExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4238PZSFKB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Playersy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Playersy;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dani.mp3player.Playersy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,6 +623,15 @@
 			buildConfigurations = (
 				33AE03F727E3980A00A8CA7B /* Debug */,
 				33AE03F827E3980A00A8CA7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B8D8F027F7455700AC374C /* Build configuration list for PBXNativeTarget "PlayersyExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B8D8F127F7455700AC374C /* Debug */,
+				33B8D8F227F7455700AC374C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
